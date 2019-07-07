@@ -15,7 +15,7 @@ Now navigate to the framework's package.json folder and run `npm install` to gra
 
   To run your test you must have selenium server up and running to execute any webdriverIO tests, or it will fail fast with an error. To start selenium automatically it has been added as part of `services: ['selenium-standalone']` in the .conf.js.
 
-### Run Some Sample Tests
+### Run All Tests
 
 To execute the entire test suite in local development, you can use the option mentioned below
 
