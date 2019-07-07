@@ -3,6 +3,7 @@
 ### Installation
 This project is tested on **Node v10.15.3**.  While earlier versions of node may be compatible, they have not been tested or verified.
 
+
 `JDK 1.8:` Install JDK 1.8+ and make sure class path is set properly. JAVA is require to start `Selenium Server` nothing else.
 
 `Node.JS:` Install  from the site - https://nodejs.org/en/ 
@@ -16,7 +17,7 @@ Now navigate to the framework's package.json folder and run `npm install` to gra
 
 ### Run Some Sample Tests
 
-To execute the entire test suite in local development, you can use any one of the options mentioned below
+To execute the entire test suite in local development, you can use the option mentioned below
 
 Option : `npm run test`
 

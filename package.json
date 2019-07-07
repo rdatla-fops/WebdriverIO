@@ -7,7 +7,7 @@
     "node-inspector": "node-inspector --debug-port 5859 --no-preload",
     "test": "wdio ./test/config/suite.mocha.conf.js",
     "allure-report": "node_modules/.bin/allure generate ./test/reports/allure-results -c && allure open"
-   },
+  },
   "keywords": [
     "selenium",
     "web",

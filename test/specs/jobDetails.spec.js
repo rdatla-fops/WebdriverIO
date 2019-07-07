@@ -24,7 +24,7 @@ describe('WHEN : A user clicked on any available Job in JobList Page', function(
     expect(JobDetails.get_Requirements_text()).to.be.equal('Requirements');
     expect(JobDetails.get_Requirements_text()).to.be.a('string');
 
-    expect(JobDetails.get_ApplyButton_text()).to.be.equal('APPLY');
+    expect(JobDetails.get_ApplyButton_text()).to.be.equal('APPLY'); 
     expect(JobDetails.get_ApplyButton_text()).to.be.a('string');
   });
 });
@@ -35,6 +35,7 @@ describe('WHEN : User clicked on Back Button in JobDetails Page', function() {
         JobDetails.click_Back_Button();
         jobList.waitFor_Header_logo_ToLoad();
 
+        //********** After clicking on back button, verfying application is navigating to JobList Page or not?  ********
         jobList.get_Welcome_Msg_text().should.equal('Welcome To Job Fabrik');
         expect(jobList.get_Welcome_Msg_text()).to.be.a('string');
     });
